@@ -1,2 +1,30 @@
-/* some style */
+/* Stiziles */
 
+html, body {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* main */
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.clock {
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 8em;
+  cursor: pointer;
+}
+
+.main h2 {
+  font-size: 4em;
+}
