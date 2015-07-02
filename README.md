@@ -30,7 +30,13 @@ To create a production build run:
     lein cljsbuild once min
 
 And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
+get live reloading, nor a REPL.
+
+To connect to the repl from Emacs (or any nrepl enabled editor):
+
+- connect to nrepl running on localhost:7888
+- `(use 'figwheel-sidecar.repl-api)`
+- `(cljs-repl)`
 
 ## License
 
