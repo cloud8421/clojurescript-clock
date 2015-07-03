@@ -8,6 +8,7 @@
                  [org.clojure/clojurescript "0.0-3308"]
                  [org.clojure/core.async "0.1.346.0-17112a-alpha"]
                  [reagent "0.5.0"]
+                 [cljs-ajax "0.3.13"]
                  [com.andrewmcveigh/cljs-time "0.3.10"]]
 
   :plugins [[lein-cljsbuild "1.0.5"]
